@@ -3,5 +3,25 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "repro-app": {
+      "projectType": "library",
+      "root": "repro-app",
+      "sourceRoot": "repro-app/src",
+      "prefix": "ai",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "./tsconfig.lib.json",
+            "project": "./ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "./tsconfig.lib.prod.json"
+            }
+          }
+        }
+      }
+    }
   }
 }
