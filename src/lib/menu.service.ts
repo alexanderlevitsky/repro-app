@@ -1,3 +1,4 @@
+/// <reference path="../decs.ts" />
 import { Injectable } from '@angular/core';
 // const d3ContextMenu = require('d3-context-menu');
 import { d3ContextMenu } from 'd3-context-menu';
@@ -9,5 +10,3 @@ export class MenuService {
     d3ContextMenu('close');
   }
 }
-
-/// <reference path="../decs.ts" />
