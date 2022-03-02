@@ -9,3 +9,5 @@ export class MenuService {
     d3ContextMenu('close');
   }
 }
+
+/// <reference path="../decs.ts" />

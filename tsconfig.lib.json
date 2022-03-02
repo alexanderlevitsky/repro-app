@@ -19,6 +19,6 @@
     "enableResourceInlining": true
   },
   "include": [
-    "decs.d.ts"
+    "decs.ts"
   ]
 }
